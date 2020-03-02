@@ -1,18 +1,18 @@
 ---
-description: Notes de mise à jour du vérificateur
-seo-description: Notes de mise à jour d’Adobe Experience Platform Audit
-seo-title: Notes de mise à jour de l’auditeur
-title: Notes de mise à jour de l’auditeur
+description: Notes de mise à jour d’Auditor
+seo-description: Notes de mise à jour d’Adobe Experience Platform Auditor
+seo-title: Notes de mise à jour d’Auditor
+title: Notes de mise à jour d’Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
 
 
-# Notes de mise à jour de l’auditeur{#auditor-release-notes}
+# Notes de mise à jour d’Auditor {#auditor-release-notes}
 
-## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 5 février 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **Amélioration**
 
@@ -20,54 +20,54 @@ Le nombre maximal de pages autorisé dans une analyse est passé de 100 à 500.
 
 >[!NOTE]
 >
->En raison de cette augmentation, le temps nécessaire pour effectuer une analyse est plus long. Dans certains cas, il peut s’écouler jusqu’à 48 heures pour effectuer un scan de 500 pages.
+>En raison de cette augmentation, le temps nécessaire pour effectuer une analyse est plus important. Dans certains cas, analyser 500 pages peut prendre jusqu’à 48 heures.
 
-## November 2, 2018 {#section-542a32872efa445dab688285bf87964b}
-
-**Nouvelles fonctionnalités**
-
-Vous pouvez désormais annuler un audit en cours d’exécution à partir de la page Auditeur, de la vue Carte ou lors de la tentative de création d’un audit.
-
-## June 4, 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
+## 2 novembre 2018 {#section-542a32872efa445dab688285bf87964b}
 
 **Nouvelles fonctionnalités**
 
-* Les utilisateurs peuvent désormais supprimer les audits terminés de l’affichage Liste, Affichage des mosaïques et Affichage des détails des audits.
-* Paramètres d’audit désormais inclus dans les téléchargements XLSX
-* Ajout du suivi des versions standard au rapport PDF
-* Messagerie améliorée lorsqu’un audit analyse uniquement une page
-* Ajout d’un lien pour afficher le rapport complet à partir de la page de téléchargement d’Excel
+Vous pouvez désormais annuler un audit en cours d’exécution à partir de la page Auditor du mode Carte ou lorsque vous essayez de créer un autre audit.
+
+## 4 juin 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
+
+**Nouvelles fonctionnalités**
+
+* Possibilité de supprimer les audits terminés dans la mosaïque et dans l’affichage détaillé des audits
+* Inclusion des paramètres d’audit dans les téléchargements XLSX
+* Ajout du suivi de version de schéma aux rapports PDF
+* Amélioration de la messagerie lorsqu’un audit analyse une seule page
+* Ajout d’un lien pour afficher le rapport complet depuis la page de téléchargement d’Excel
 
 **Corrections de bogues**
 
-Assurez-vous que le lien Administration s’affiche dans le shell lorsqu’un utilisateur est un administrateur de l’organisation IMS.
+S’assurer que le lien Administration s’affiche dans l’interface de commande lorsque l’utilisateur est un administrateur de l’organisation IMS
 
-## May 17, 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
+## 17 mai 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
 
 **Nouvelles fonctionnalités**
 
-* Ajout de tests et de validation d’expression réguliers à la configuration de la nouvelle vérification
+* Ajout du test et de la validation d’expressions régulières à la configuration d’un nouvel audit
 
-   Vous pouvez plus facilement entrer des filtres Inclure ou Exclure, car les valeurs RegEx sont validées lorsque vous les saisissez.
+   Vous pouvez saisir des filtres d’inclusion et d’exclusion plus facilement, car les valeurs RegEx sont validées lorsque vous les saisissez.
 * Possibilité de télécharger les rapports d’audit au format PDF.
-* Ajout du numéro de version de la règle de test aux paramètres de contrôle sur un audit terminé.
+* Ajout du numéro de version de schéma de test aux paramètres d’audit sur les audits terminés.
 
-## Version initiale, 22 mars 2018 {#section-dcc4cd58353b48369d1e994a05a71a29}
+## Version initiale, 22 mars 2018 {#section-dcc4cd58353b48369d1e994a05a71a29}
 
 >[!NOTE]
 >
->L&#39;accès au vérificateur est accordé de façon continue. Tous les clients y auront accès d&#39;ici fin avril 2018.
+>L’accès à Auditor se fait selon des plages de déploiement. Tous les clients y auront accès d’ici fin avril 2018.
 
-Le vérificateur de la plate-forme d’expérience Adobe évalue les implémentations d’Adobe Experience Cloud et recommande des améliorations. L’auditeur vous aide à tirer davantage parti de vos produits Adobe, individuellement et collectivement.
+Adobe Experience Platform Auditor évalue les implémentations d’Adobe Experience Cloud et recommande des améliorations. Auditor vous aide à tirer davantage parti de vos produits Adobe, individuellement et collectivement.
 
-Avec l’outil Auditeur, vous pouvez :
+Avec Auditor, vous pouvez réaliser les actions suivantes :
 
-* **Analyser** numériser 100 pages Web à la fois pour la technologie Adobe. Utilisez des filtres avancés pour inclure ou exclure des pages, le cas échéant. Vous pouvez exécuter une vérification à la fois et un nombre illimité d’audits.
+* **Analyser** – Analysez 100 pages web à la fois pour la technologie Adobe. Utilisez des filtres avancés pour inclure ou exclure des pages, le cas échéant. Vous pouvez réaliser un audit à la fois et un nombre illimité d’audits.
 
-* **Comprenez** Recevez un rapport qui évalue vos implémentations Adobe en fonction de la présence, de la configuration et de la cohérence des balises.
+* **Comprendre** – Recevez un rapport qui évalue vos implémentations Adobe en fonction de la présence, de la configuration et de la cohérence des balises.
 
-* **Améliorez** Obtenez des recommandations sur la mise à niveau de votre implémentation et tirez pleinement parti de votre investissement Adobe. L’auditeur vous indique exactement comment améliorer une implémentation, indique la page Web sur laquelle le problème a été trouvé, puis fournit des conseils sur la manière de le résoudre.
+* **Améliorer** – Obtenez des recommandations sur la mise à niveau de votre implémentation, afin de profiter pleinement de votre investissement Adobe. Auditor vous indique les améliorations que vous pouvez apporter à une implémentation, la page web sur laquelle le problème a été découvert et comment y remédier.
 
-En vous permettant de dépanner et de corriger vos propres implémentations, le vérificateur vous donne un meilleur contrôle sur vos balises d’implémentation et, par conséquent, sur vos données. Cela évite de contacter le service d’assistance clientèle pour toute question concernant vos balises d’implémentation.
+En vous permettant de dépanner et de corriger vos propres implémentations, Auditor vous offre un meilleur contrôle sur vos balises d’implémentation et, par conséquent, sur vos données. Cela limite le besoin de contacter l’assistance clientèle pour obtenir des réponses sur l’implémentation des balises.
 
-L’auditeur a été développé en tant qu’effort de coopération entre Adobe et ObservePoint. Les utilisateurs d’auditeurs peuvent utiliser la fonctionnalité ObservePoint limitée sans frais supplémentaires. Pour utiliser l&#39;auditeur, vous devez vous inscrire aux communications de ObservePoint.
+Auditor a été développé sous la forme d’un effort coopératif entre Adobe et ObservePoint. Les utilisateurs d’Auditor peuvent utiliser une version limitée d’ObservePoint sans frais supplémentaires. Pour utiliser Auditor, vous devez accepter les communications d’ObservePoint.
