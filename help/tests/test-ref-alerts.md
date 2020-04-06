@@ -1,11 +1,11 @@
 ---
 description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
 seo-description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
-seo-title: Alertes
-title: Alertes
+seo-title: 'Alertes '
+title: 'Alertes '
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -93,7 +93,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch : placement du rappel pageBottom</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informations supplémentaires</a> </p> 
+    </draft-comment> <p><b>Launch : placement du rappel pageBottom</b> </p> <p>Poids : 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informations supplémentaires</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Prise en main de Launch</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external"> Déploiement asynchrone de Launch</a> </p> </td> 
+    </draft-comment> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Prise en main de Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Déploiement asynchrone de Launch</a> </p> </td> 
    <td colname="col2"> <p>La bibliothèque Launch est hébergée sur l’instance Akamai d’Adobe à l’adresse <span class="filepath">assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement de Launch, car elle permet un meilleur contrôle des performances du site web grâce au contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques Launch peuvent être hébergées et gérées via votre propre hébergement web ou CDN. </p> </td> 
    <td colname="col3"> <p>Bien que l’hébergement de Launch par le biais du réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé de mettre en œuvre l’auto-hébergement comme première étape pour améliorer les performances des pages. </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    </draft-comment> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Launch doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
    <td colname="col3"> <p>Incluez le paramètre « async » dans le script intégré pour garantir un fonctionnement asynchrone correct de Launch. </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target : contenu dans mboxDefault</b> </p> <p>Poids : 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    </draft-comment> <p><b> Target : contenu dans mboxDefault</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le contenu doit exister dans mboxDefault lors de l’utilisation d’at.js. </p> </td> 
    <td colname="col3"> <p>Vérifiez que le contenu est disponible. </p> </td> 
   </tr> 
