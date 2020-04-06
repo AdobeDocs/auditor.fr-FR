@@ -4,8 +4,8 @@ seo-description: Cette référence fournit des informations supplémentaires sur
 seo-title: Présence des balises
 title: Présence des balises
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
    <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Launch Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/fr_FR/sc/implement/" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version d’Analytics. </p> </td> 
   </tr> 
@@ -56,7 +56,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph"> pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph"> &lt;head&gt; </span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
+   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le cookie <span class="codeph"> AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
+   <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
   <tr> 
    <td colname="col1"> <p><b> Target : bibliothèque chargée dans la balise &lt;head&gt;</b> </p> <p>Poids : 4 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La bibliothèque Target doit être chargée dans la balise <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
-   <td colname="col3"> <p> Vérifiez que la bibliothèque Target est chargée dans la balise <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
+   <td colname="col3"> <p> Vérifiez que la bibliothèque Target est chargée dans la balise <span class="codeph">&lt;head&gt;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
