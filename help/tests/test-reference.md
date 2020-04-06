@@ -4,8 +4,8 @@ seo-description: Cette référence fournit des informations supplémentaires sur
 seo-title: Référence sur les tests
 title: Référence sur les tests
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ Les solutions Adobe suivantes ne sont actuellement pas incluses dans le schéma 
 * Audience Manager
 * Campaign
 * Launch
-
-## Catégories de test {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-Cette référence sur les tests les divise en plusieurs catégories :
