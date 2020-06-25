@@ -4,11 +4,11 @@ seo-description: valeur nulle
 seo-title: FAQ sur Auditor
 title: FAQ sur Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cet article contient les réponses aux questions fréquentes sur Adobe Experienc
 * [Quelles sont les informations fournies dans un rapport ?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Quelle est l’utilité de ces informations ?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor peut-il réaliser un audit sur des technologies autres que celles d’Adobe ?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Puis-je approuver mes adresses IP pour autoriser la numérisation des pages...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Puis-je approuver mes adresses IP pour permettre l’analyse de pages...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor utilise-t-il les mêmes plages d’adresses IP qu’ObservePoint ?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Qu’est-ce qu’Auditor ? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -129,7 +129,7 @@ Toutes les recommandations fournies par Auditor sont destinées à vous aider à
 
 Non. Cependant, l’offre complète d’ObservePoint permet aux clients de réaliser un audit de toutes les balises et technologies marketing, et ainsi de les contrôler. En tant que client Adobe, vous avez accès à un compte d’évaluation gratuit. Pour accéder à votre compte d’évaluation, rendez-vous sur la [page Auditor d’ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Puis-je approuver mes adresses IP pour permettre l’analyse de pages protégées par une connexion ? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Cette fonctionnalité n’est actuellement pas prise en charge sans l’offre complète d’ObservePoint.
 
