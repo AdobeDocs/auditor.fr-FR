@@ -4,8 +4,11 @@ seo-description: Adobe Experience Platform Auditor est un service d’Adobe Expe
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -38,4 +41,4 @@ Si vous voulez demander de l’aide pour vous lancer, poser vos questions, sugg�
 
 ## Informations sur la version {#section-be3e331a123d40f185aa59f23f69355e}
 
-Pour plus d’informations sur la version la plus récente, consultez les [notes de mise à jour d’Auditor](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1).
+Pour plus d’informations sur la version la plus récente, consultez les [notes de mise à jour d’Auditor](release-notes.md).
