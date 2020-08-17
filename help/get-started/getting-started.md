@@ -4,8 +4,11 @@ seo-description: Prise en main d’Auditor
 seo-title: Prise en main
 title: Prise en main
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ La première fois que vous utilisez Auditor, vous devez remplir et accepter le c
 
    ![](assets/config.png)
 
-   Pour une description de toutes les options de configuration, consultez [Création d’un audit](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   Pour une description de toutes les options de configuration, consultez [Création d’un audit](../create-audit/create-new-audit.md).
 1. Affichez votre rapport.
 
-   Lorsque vous recevez le courrier électronique vous informant que l’analyse est terminée, cliquez sur le lien pour [afficher votre rapport](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869), découvrir les opportunités d’amélioration de votre implémentation et tirer davantage parti de vos solutions Adobe.
+   Lorsque vous recevez le courrier électronique vous informant que l’analyse est terminée, cliquez sur le lien pour [afficher votre rapport](../reports/scorecard.md), découvrir les opportunités d’amélioration de votre implémentation et tirer davantage parti de vos solutions Adobe.
 
    Vous pouvez également cliquer sur le nom de l’audit depuis la [page Auditor](../get-started/audit-list.md) pour afficher le statut de l’audit et consulter le rapport une fois l’audit terminé.
 
