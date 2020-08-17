@@ -1,11 +1,14 @@
 ---
-description: valeur nulle
-seo-description: valeur nulle
+description: 'null'
+seo-description: 'null'
 seo-title: Schéma de test 0.0.8
 title: Schéma de test 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -42,15 +45,15 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <td colname="col1"> <p><b>Advertising Cloud : balise image seule</b> </p> <p>Poids : 0 </p> </td> 
     <td colname="col2"> <p>Le format de pixel d’image Advertising Cloud doit correspondre à l’un des formats recommandés suivants : </p> <p> 
       <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
     <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : pixels de segment, synchronisation DSP activée</b> </p> <p>Poids : 0 </p> </td> 
-    <td colname="col2"> <p>Vérifiez si le pixel du segment TubeMogul contient un paramètre de synchronisation DSP, et demandez que ce paramètre soit ajouté au pixel. </p> <p>Le paramètre de synchronisation DSP est déterminé par l’utilisation d’un paramètre de chaîne de requête. </p> <p>SI la balise est déclenchée sur<span class="codeph"> (« https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;? »</span> </p> <p>ET que la balise contient le paramètre d’URL <span class="codeph"> « sid= »)</span> </p> <p>ALORS vérifiez si le paramètre d’URL <span class="codeph"> « cs=0 »</span> ou <span class="codeph">« cs=1 »</span> existe et, si ce n’est pas le cas, veillez à ce que <span class="codeph">« cs=1 »</span> soit ajouté à ces pixels afin que les taux de correspondance de l’audience puissent s’améliorer. </p> </td> 
+    <td colname="col2"> <p>Vérifiez si le pixel du segment TubeMogul contient un paramètre de synchronisation DSP, et demandez que ce paramètre soit ajouté au pixel. </p> <p>Le paramètre de synchronisation DSP est déterminé par l’utilisation d’un paramètre de chaîne de requête. </p> <p>SI la balise est déclenchée sur<span class="codeph"> (« https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;? »</span> </p> <p>ET que la balise contient le paramètre d’URL <span class="codeph"> « sid= »)</span> </p> <p>ALORS vérifiez si le paramètre d’URL <span class="codeph"> « cs=0 »</span> ou<span class="codeph"> « cs=1 »</span> existe et, si ce n’est pas le cas, veillez à ce que <span class="codeph">« cs=1 »</span> soit ajouté à ces pixels afin que les taux de correspondance de l’audience puissent s’améliorer. </p> </td> 
     <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé très facilement avec l’extension Launch Advertising Cloud. </p> </td> 
    </tr> 
    <tr> 
@@ -93,18 +96,18 @@ Auditor évalue les balises en fonction d’autres règles et des bonnes pratiqu
   <tbody> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : les noms de conversion utilisent uniquement des caractères alphanumériques</b> </p> <p>Poids : 3 </p> </td> 
-    <td colname="col2"> <p>Le paramètre <span class="codeph"> ev_conversion_property_name</span> ne doit contenir que des valeurs numériques et décimales SAUF pour le paramètre « <span class="codeph">ev_transid</span> » (la valeur <span class="codeph"> ev_transid</span> peut contenir du texte ou des valeurs numériques). </p> <p>Recherchez les pixels <span class="codeph"> everesttech.net</span> qui contiennent un paramètre d’URL commençant par <span class="codeph"> ev_</span>. </p> <p>Exemple : </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
+    <td colname="col2"> <p>Le paramètre <span class="codeph"> ev_conversion_property_name</span> ne doit contenir que des valeurs numériques et décimales SAUF pour le paramètre « <span class="codeph">ev_transid</span> ». (La valeur <span class="codeph"> ev_transid</span> peut contenir du texte ou des valeurs numériques.) </p> <p>Recherchez les pixels <span class="codeph"> everesttech.net</span> qui contiennent un paramètre d’URL commençant par <span class="codeph"> ev_</span>. </p> <p>Exemple : </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Assurez-vous que les paramètres de propriété de transaction contiennent uniquement des valeurs numériques et décimales. </p> <p> <p>Avertissement : tout autre type de valeur peut entraîner une perte de données. </p> </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : les noms de conversion utilisent uniquement des caractères autorisés pour les URL</b> </p> <p>Poids : 3 </p> </td> 
-    <td colname="col2"> <p> Les noms des propriétés de conversion ne doivent pas contenir d’esperluette ni de point d’interrogation. </p> <p> Exemple : </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+    <td colname="col2"> <p> Les noms des propriétés de conversion ne doivent pas contenir d’esperluette ni de point d’interrogation. </p> <p> Exemple : </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>Assurez-vous que les paramètres de propriété de transaction ne contiennent pas d’esperluette ni de point d’interrogation non codé. Ces caractères rompent le format d’URL. </p> <p> <p>Avertissement : les paramètres de propriété contenant une esperluette ou un point d’interrogation non codé (par exemple : <span class="codeph"> ev_formComplete?=1</span> ou <span class="codeph"> ev_formComplete&amp;Submit=1</span>) peuvent entraîner une perte de données. </p> </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : ID de transaction correctement implémentée</b> </p> <p>Poids : 1 </p> </td> 
-    <td colname="col2"> <p> Le nom de propriété <span class="codeph">ev_transid=</span> ne doit pas être vide. </p> <p>Exemple : </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
-    <td colname="col3"> <p>Le nom de propriété <span class="codeph"> ev_transid=</span> ne doit pas être laissé sans valeur (<span class="codeph">ev_transid=</span>). En l’absence de valeur, vous pourriez subir des pertes de données de transaction. Attribuez une valeur à <span class="codeph"> ev_transid=</span> ou supprimez le paramètre du pixel. </p> </td> 
+    <td colname="col2"> <p> Le nom de propriété <span class="codeph"> ev_transid=</span> ne doit pas être vide. </p> <p>Exemple : </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+    <td colname="col3"> <p>Le nom de propriété <span class="codeph"> ev_transid=</span> ne doit pas être laissé sans valeur (<span class="codeph"> ev_transid=</span>). En l’absence de valeur, vous pourriez subir des pertes de données de transaction. Attribuez une valeur à <span class="codeph"> ev_transid=</span> ou supprimez le paramètre du pixel. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics : instancié dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-validation.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
@@ -117,7 +120,7 @@ Auditor évalue les balises en fonction d’autres règles et des bonnes pratiqu
     <td colname="col3"> <p>Assurez-vous qu’il n’y a qu’une seule balise Analytics sur la page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics : version la plus récente</b> </p> <p>Poids : 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics : version la plus récente</b> </p> <p>Poids : 3 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Analytics. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td>       
     <td colname="col3"> <p>Installez la dernière version de la bibliothèque Analytics. </p> </td> 
    </tr> 
@@ -172,7 +175,7 @@ Auditor évalue si les balises sont cohérentes entre les URL.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics : version de code cohérente </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics : version de code cohérente </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Plusieurs versions du code Analytics ont été trouvées. </p> </td> 
     <td colname="col3"> <p>Remplacez toutes les instances d’Analytics par la version actuelle. </p> </td> 
    </tr> 
@@ -236,7 +239,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
     <td colname="col3"> <p>Installez l’appel <span class="codeph">pageBottom</span> de DTM sur chaque page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
     <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
    </tr> 
