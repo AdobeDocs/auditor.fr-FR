@@ -4,8 +4,11 @@ seo-description: Création d’un audit dans Auditor
 seo-title: Création d’un audit dans Auditor
 title: Création d’un audit dans Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un com
    Le nom ne peut excéder 250 caractères.
 1. (Obligatoire) Spécifiez l’URL de début.
 
-   Le protocole est requis lors de la spécification de l’URL de début. L’URL de début est la page à partir de laquelle l’audit commence à analyser. Une fois lancé, Auditor analyse jusqu’à 500 pages, en suivant les liens qui commencent à l’URL de début. Consultez [Filtres d’inclusion et d’exclusion](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) pour en savoir plus. L’URL de début ne peut excéder 250 caractères.
+   Le protocole est requis lors de la spécification de l’URL de début. L’URL de début est la page à partir de laquelle l’audit commence à analyser. Une fois lancé, Auditor analyse jusqu’à 500 pages, en suivant les liens qui commencent à l’URL de début. Consultez [Filtres d’inclusion et d’exclusion](../create-audit/filters.md) pour en savoir plus. L’URL de début ne peut excéder 250 caractères.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un com
 
    Les filtres d’inclusion sont limités à 1 000 caractères par ligne.
 
-   Consultez [Liste d’inclusion](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) pour en savoir plus.
+   Consultez [Liste d’inclusion](../create-audit/filters.md) pour en savoir plus.
 1. Spécifiez les filtres d’exclusion.
 
    La liste d’exclusion empêche l’analyse de certaines adresses URL. Utilisez des adresses URL exactes, des adresses URL partielles ou des expressions régulières, comme vous le feriez dans la liste d’inclusion.
@@ -61,7 +64,7 @@ Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un com
 
    Les filtres d’exclusion sont limités à 1 000 caractères par ligne.
 
-   Consultez [Liste d’exclusion](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) pour en savoir plus.
+   Consultez [Liste d’exclusion](../create-audit/filters.md) pour en savoir plus.
 1. (Facultatif) Si vous le souhaitez, vous pouvez tester les filtres d’inclusion et d’exclusion, ainsi que tester vos adresses URL.
 
    Saisissez les filtres et les adresses URL, puis cliquez sur **[!UICONTROL Appliquer]** pour exécuter le test.
