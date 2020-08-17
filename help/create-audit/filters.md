@@ -4,8 +4,11 @@ seo-description: Les filtres d’inclusion limitent les liens qu’un audit peut
 seo-title: Filtres d’inclusion et d’exclusion
 title: Filtres d’inclusion et d’exclusion
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ L’utilisation du filtre d’inclusion par défaut offre un large éventail d�
 
 Les filtres d’inclusion peuvent contenir des adresses URL exactes, des adresses URL partielles ou des expressions régulières. Par exemple, si l’URL de début est [!DNL http://mysite.com], les pages suivantes sont éligibles à l’analyse par défaut (notez les caractères en gras) :
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-Pour les modèles d’URL complexes, utilisez le [testeur d’expression régulière d’ObservePoint](http://regex.observepoint.com/).
-
-Consultez également le document [Expressions régulières courantes pour ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) afin de découvrir des cas d’utilisation de correspondance de modèle.
+Pour les modèles d’URL complexes, utilisez le [testeur d’expression régulière d’ObservePoint](https://regex.observepoint.com/).
 
 ## Filtres d’exclusion {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Lorsque vous créez un audit, cliquez sur **[!UICONTROL Tester les filtres avanc
 
 ## Documentation d’ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Cet article a été élaboré en collaboration avec ObservePoint. Pour obtenir les informations les plus récentes, reportez-vous à la [documentation d’ObservePoint](https://help.observepoint.com/articles/2872121-include-and-exclude-filters).
+Cet article a été élaboré en collaboration avec ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
