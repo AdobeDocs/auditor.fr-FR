@@ -4,9 +4,9 @@ seo-description: Création d’un audit dans Auditor
 seo-title: Création d’un audit dans Auditor
 title: Création d’un audit dans Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un compte d’évaluation gratuit et complet avec ObservePoint.
 
-1. Dans la liste d’Auditor, cliquez sur **[!UICONTROL Nouvel audit]**.
+1. Dans la liste d’Auditor, cliquez sur **[!UICONTROL New Audit]**.
 
    L’écran [!DNL New Audit] s’affiche.
 
@@ -67,8 +67,8 @@ Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un com
    Consultez [Liste d’exclusion](../create-audit/filters.md) pour en savoir plus.
 1. (Facultatif) Si vous le souhaitez, vous pouvez tester les filtres d’inclusion et d’exclusion, ainsi que tester vos adresses URL.
 
-   Saisissez les filtres et les adresses URL, puis cliquez sur **[!UICONTROL Appliquer]** pour exécuter le test.
+   Saisissez les filtres et les adresses URL, puis cliquez sur **[!UICONTROL Apply]** pour exécuter le test.
 
    ![](assets/test-advanced-filters.png)
 
-1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
+1. Cliquez sur **[!UICONTROL Run Report]**.
