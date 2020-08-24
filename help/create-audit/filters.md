@@ -4,11 +4,11 @@ seo-description: Les filtres d’inclusion limitent les liens qu’un audit peut
 seo-title: Filtres d’inclusion et d’exclusion
 title: Filtres d’inclusion et d’exclusion
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,10 +102,10 @@ Les filtres d’exclusion empêchent l’analyse de certaines adresses URL. Vous
 
 Vous pouvez tester vos filtres et adresses URL dans Auditor.
 
-Lorsque vous créez un audit, cliquez sur **[!UICONTROL Tester les filtres avancés]**. Saisissez les filtres et adresses URL, puis cliquez sur **[!UICONTROL Appliquer]**.
+Lorsque vous créez un audit, cliquez sur **[!UICONTROL Test Advanced Filters]**. Saisissez les filtres et adresses URL, puis cliquez sur **[!UICONTROL Apply]**.
 
 ![](assets/test-advanced-filters.png)
 
 ## Documentation d’ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Cet article a été élaboré en collaboration avec ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
+Cet article a été élaboré en collaboration avec ObservePoint. Pour obtenir les informations les plus récentes, reportez-vous à la [documentation d’ObservePoint](https://help.observepoint.com/).
