@@ -4,9 +4,9 @@ seo-description: Prise en main d’Auditor
 seo-title: Prise en main
 title: Prise en main
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -35,15 +35,15 @@ La première fois que vous utilisez Auditor, vous devez remplir et accepter le c
 
    ![](assets/home.png)
 
-1. Cliquez sur **[!UICONTROL Nouvel audit]**.
+1. Cliquez sur **[!UICONTROL New Audit]**.
 
-   Pour exécuter une nouvelle analyse, cliquez sur **[!UICONTROL Nouvel audit]** dans le coin supérieur droit de l’écran.
+   Pour exécuter une nouvelle analyse, cliquez sur **[!UICONTROL New Audit]** dans le coin supérieur droit de l’écran.
 
    ![](assets/new-audit-button.png)
 
 1. Configurez l’analyse.
 
-   Attribuez un nom à l’audit, fournissez une URL de début, puis cliquez sur **[!UICONTROL Exécuter le rapport]**. Une fois votre analyse terminée, vous recevez une notification par courrier électronique.
+   Attribuez un nom à l’audit, fournissez une URL de début, puis cliquez sur **[!UICONTROL Run Report]**. Une fois votre analyse terminée, vous recevez une notification par courrier électronique.
 
    ![](assets/config.png)
 
