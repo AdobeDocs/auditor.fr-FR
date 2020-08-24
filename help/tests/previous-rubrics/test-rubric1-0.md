@@ -7,8 +7,8 @@ uuid: c62b7169-a650-4650-876f-c254eb57cb25
 translation-type: tm+mt
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,7 +96,7 @@ Auditor évalue les balises en fonction d’autres règles et des bonnes pratiqu
   <tbody> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : les noms de conversion utilisent uniquement des caractères alphanumériques</b> </p> <p>Poids : 3 </p> </td> 
-    <td colname="col2"> <p>Le paramètre <span class="codeph"> ev_conversion_property_name</span> ne doit contenir que des valeurs numériques et décimales SAUF pour le paramètre « <span class="codeph">ev_transid</span> ». (La valeur <span class="codeph"> ev_transid</span> peut contenir du texte ou des valeurs numériques.) </p> <p>Recherchez les pixels <span class="codeph"> everesttech.net</span> qui contiennent un paramètre d’URL commençant par <span class="codeph"> ev_</span>. </p> <p>Exemple : </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
+    <td colname="col2"> <p>Le paramètre <span class="codeph"> ev_conversion_property_name</span> ne doit contenir que des valeurs numériques et décimales SAUF pour le paramètre « <span class="codeph">ev_transid</span> ». (La valeur <span class="codeph"> ev_transid</span> peut contenir du texte ou des valeurs numériques.) </p> <p>Recherchez les pixels <span class="codeph"> everesttech.net</span> qui contiennent un paramètre d’URL commençant par <span class="codeph"> ev_</span>. </p> <p>Exemple : </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Assurez-vous que les paramètres de propriété de transaction contiennent uniquement des valeurs numériques et décimales. </p> <p> <p>Avertissement : tout autre type de valeur peut entraîner une perte de données. </p> </p> </td> 
    </tr> 
    <tr> 
@@ -110,7 +110,7 @@ Auditor évalue les balises en fonction d’autres règles et des bonnes pratiqu
     <td colname="col3"> <p>Le nom de propriété <span class="codeph"> ev_transid=</span> ne doit pas être laissé sans valeur (<span class="codeph"> ev_transid=</span>). En l’absence de valeur, vous pourriez subir des pertes de données de transaction. Attribuez une valeur à <span class="codeph"> ev_transid=</span> ou supprimez le paramètre du pixel. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics : instancié dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-validation.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics : instancié dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Le code Adobe Analytics n’est pas installé ou ne s’exécute pas. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
     <td colname="col3"> <p>Vérifiez que la balise Analytics est implémentée sur la page et n’est pas bloquée par les activités de script suivantes. </p> </td> 
    </tr> 
