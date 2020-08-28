@@ -1,14 +1,14 @@
 ---
-description: informations sur les tests de l'Adobe Audit
-seo-description: informations sur les tests de l'Adobe Audit
+description: informations sur les tests Adobe Auditor
+seo-description: informations sur les tests Adobe Auditor
 seo-title: Schéma de test 1.0.1
 title: Schéma de test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2747'
+ht-degree: 100%
 
 ---
 
@@ -354,7 +354,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (ECID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (MCID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installez la dernière version de MCID. </p> </td> 
   </tr> 
   <tr> 
