@@ -1,14 +1,14 @@
 ---
-description: informations sur les tests de l'Adobe Audit
-seo-description: informations sur les tests de l'Adobe Audit
+description: informations sur les tests Adobe Auditor
+seo-description: informations sur les tests Adobe Auditor
 seo-title: Schéma de test 0.0.8
 title: Schéma de test 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1998'
+ht-degree: 100%
 
 ---
 
