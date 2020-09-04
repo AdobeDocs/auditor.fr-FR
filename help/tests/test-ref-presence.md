@@ -4,10 +4,10 @@ seo-description: Cette référence fournit des informations supplémentaires sur
 seo-title: Présence des balises
 title: Présence des balises
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '943'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
@@ -69,65 +69,65 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (ECID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (MCID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installez la dernière version de MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La valeur MID est introuvable dans le cookie <span class="codeph"> AMCV_</span>. </p> </td> 
    <td colname="col3"> <p>Testez à nouveau pour vérifier la latence de l’API MCID. Si la condition persiste, contactez l’assistance clientèle Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch : bibliothèque chargée</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : bibliothèque chargée</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Launch n’est pas installé ou ne s’exécute pas. </p> </td> 
    <td colname="col3"> <p>Vérifiez que la bibliothèque Launch est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une bibliothèque Launch. </p> </td> 
    <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Launch. </p> <p>Ce test échoue si l’appel <span class="codeph"> pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph"> &lt;head&gt; </span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Le rappel <span class="codeph"> _satellite.pageBottom()</span> a été trouvé sur la page, ce qui ne doit pas être le cas lorsque Launch est déployé de manière asynchrone. </p> </td> 
    <td colname="col3"> <p>Supprimez le script <span class="codeph">_satellite.pageBottom()</span> pour un fonctionnement correct de Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Target : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Target : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Target doit être défini dans le modèle DOM. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de Target (at.js). </p> </td> 
   </tr> 
