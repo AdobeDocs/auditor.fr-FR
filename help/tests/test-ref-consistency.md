@@ -4,10 +4,10 @@ seo-description: Cette référence fournit des informations supplémentaires sur
 seo-title: Cohérence des balises
 title: Cohérence des balises
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '114'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,9 @@ Les tests de cohérence d’Auditor recherchent les incohérences entre toutes l
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Analytics : version de code cohérente</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Analytics : version de code cohérente </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Plusieurs versions du code Analytics ont été trouvées. </p> </td> 
    <td colname="col3"> <p>Remplacez toutes les instances d’Analytics par la version actuelle. </p> </td> 
   </tr> 
