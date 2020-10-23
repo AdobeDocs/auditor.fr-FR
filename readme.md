@@ -1,16 +1,16 @@
 ---
 source-git-commit: 11340be8ca4288cbe4c6129f44a05677cfd3112e
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '509'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 # Article sur les contributions
 
 | EXL-PR | EXL | Aperçu | Activer | Publication | Aide |
 |--- |--- |--- |--- |--- |--- |
-| [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
+| [![Statut de la version](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![Statut de la version](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Nous acceptons les contributions de notre communauté ainsi que des employés d’Adobe qui ne font pas partie des équipes de documentation.
 
