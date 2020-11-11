@@ -1,14 +1,14 @@
 ---
-description: informations sur les tests Adobe Auditor
-seo-description: informations sur les tests Adobe Auditor
+description: informations sur les tests Adobe Experience Platform Auditor
+seo-description: informations sur les tests Adobe Experience Platform Auditor
 seo-title: Schéma de test 0.0.8
 title: Schéma de test 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Alertes {#alerts}
 
-Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
+Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
 
 Les alertes indiquent les problèmes que vous devez connaître, mais qui n’affectent pas votre score.
 
@@ -39,7 +39,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : balise de conversion correcte implémentée</b> </p> <p>Poids : 0 </p> </td> 
     <td colname="col2"> <p>Vérifiez si c’est la balise de conversion appropriée qui est utilisée. </p> <p> <p>Avertissement : l’utilisation des balises de conversion obsolètes de TubeMogul peut entraîner une perte de données. </p> </p> </td> 
-    <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>L'extension Advertising Cloud pour Adobe Experience Platform Launch permet d'y parvenir facilement. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : balise image seule</b> </p> <p>Poids : 0 </p> </td> 
@@ -49,12 +49,12 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : pixels de segment, synchronisation DSP activée</b> </p> <p>Poids : 0 </p> </td> 
     <td colname="col2"> <p>Vérifiez si le pixel du segment TubeMogul contient un paramètre de synchronisation DSP, et demandez que ce paramètre soit ajouté au pixel. </p> <p>Le paramètre de synchronisation DSP est déterminé par l’utilisation d’un paramètre de chaîne de requête. </p> <p>SI la balise est déclenchée sur<span class="codeph"> (« https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;? »</span> </p> <p>ET que la balise contient le paramètre d’URL <span class="codeph"> « sid= »)</span> </p> <p>ALORS vérifiez si le paramètre d’URL <span class="codeph"> « cs=0 »</span> ou<span class="codeph"> « cs=1 »</span> existe et, si ce n’est pas le cas, veillez à ce que <span class="codeph">« cs=1 »</span> soit ajouté à ces pixels afin que les taux de correspondance de l’audience puissent s’améliorer. </p> </td> 
-    <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé très facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM : placement du rappel pageBottom</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> 
@@ -81,9 +81,9 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
 
 ## Configuration {#configuration}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor concernant la configuration.
+Cette référence fournit des informations supplémentaires sur les tests exécutés par Platform Auditor pour la configuration.
 
-Auditor évalue les balises en fonction d’autres règles et des bonnes pratiques recommandées.
+Platform Auditor évalue les balises en fonction d’autres règles et des meilleures pratiques recommandées.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Auditor évalue les balises en fonction d’autres règles et des bonnes pratiqu
 
 ## Cohérence des balises {#tag-consistency}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la cohérence des balises.
+Cette référence fournit plus d’informations sur les tests exécutés par Platform Auditor pour la cohérence des balises.
 
-Auditor évalue si les balises sont cohérentes entre les URL.
+Platform Auditor évalue si les balises sont cohérentes entre les URL.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Auditor évalue si les balises sont cohérentes entre les URL.
 
 ## Présence des balises {#tag-presence}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la présence des balises.
+Cette référence fournit plus d’informations sur les tests effectués par Platform Auditor pour la présence de balises.
 
-Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le code de votre page, etc.
+Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit dans votre code de page, etc.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : présence du code</b> </p> <p>Poids : 5 </p> </td> 
     <td colname="col2"> <p> La balise Advertising Cloud n’est pas disponible dans le modèle DOM. </p> </td> 
-    <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Launch Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud : pixel de segment implémenté</b> </p> <p>Poids : 5 </p> </td> 
     <td colname="col2"> <p> Mettez à niveau vos pixels de segment Advertising Cloud vers les nouvelles balises image seule Advertising Cloud. L’utilisation de balises de segment AMO obsolètes peut entraîner une perte de données. </p> </td> 
-    <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Launch Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
