@@ -1,14 +1,14 @@
 ---
-description: Prise en main d’Auditor
-seo-description: Prise en main d’Auditor
+description: Commencer avec Adobe Experience Platform Auditor
+seo-description: Commencer avec Adobe Experience Platform Auditor
 seo-title: Prise en main
 title: Prise en main
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-La première fois que vous utilisez Auditor, vous devez remplir et accepter le contrat d’Auditor. Auditor a été développé sous la forme d’un effort coopératif entre Adobe et ObservePoint. Les utilisateurs d’Auditor peuvent utiliser une version limitée d’ObservePoint sans frais supplémentaires. Pour utiliser Auditor, vous devez accepter les communications d’ObservePoint.
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] a été élaboré en tant qu&#39;effort de coopération entre [!DNL Adobe] et [!DNL ObservePoint]les. Les utilisateurs du vérificateur de plateformes peuvent utiliser une fonctionnalité ObservePoint limitée sans frais supplémentaires. Pour utiliser Platform Auditor, vous devez vous inscrire aux communications de ObservePoint.
 
 ## Exécution de votre première analyse {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ La première fois que vous utilisez Auditor, vous devez remplir et accepter le c
 
    ![](assets/activate.png)
 
-1. Sélectionnez Auditor et acceptez les Conditions d’utilisation.
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   La page Auditor vous donne un tableau de bord des analyses précédentes, ainsi que la possibilité d’exécuter une nouvelle analyse.
+   La page Vérificateur de plateformes vous donne un tableau de bord des analyses précédentes, ainsi que la possibilité d&#39;exécuter une nouvelle analyse.
 
    ![](assets/home.png)
 
