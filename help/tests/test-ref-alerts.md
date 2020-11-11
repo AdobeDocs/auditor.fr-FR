@@ -1,21 +1,21 @@
 ---
-description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
-seo-description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
+description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
+seo-description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
 seo-title: Alertes
 title: Alertes
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 70%
 
 ---
 
 
 # Alertes {#alerts}
 
-Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
+Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
 
 Les alertes indiquent les problèmes que vous devez connaître, mais qui n’affectent pas votre score. Il s’agit de recommandations de bonnes pratiques qui, dans certains cas, peuvent ne pas s’appliquer à votre mise en œuvre.
 
@@ -34,7 +34,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : balise de conversion correcte implémentée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Vérifiez si c’est la balise de conversion appropriée qui est utilisée. </p> <p> <p>Avertissement : l’utilisation des balises de conversion obsolètes de TubeMogul peut entraîner une perte de données. </p> </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>L'extension Advertising Cloud pour Adobe Experience Platform Launch permet d'y parvenir facilement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -42,7 +42,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : balise JS correcte utilisée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud doit utiliser les dernières balises JavaScript. </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau votre JavaScript Advertising Cloud vers la dernière version. L’utilisation de versions JavaScript obsolètes peut entraîner la perte de fonctionnalités. </p> <p>Pour ce faire, utilisez l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau votre JavaScript Advertising Cloud vers la dernière version. L’utilisation de versions JavaScript obsolètes peut entraîner la perte de fonctionnalités. </p> <p>Cela peut être accompli plus facilement grâce à l'utilisation de l'extension Advertising Cloud pour Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -55,7 +55,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -63,7 +63,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : pixels de segment, synchronisation DSP activée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Vérifiez si le pixel du segment TubeMogul contient un paramètre de synchronisation DSP, et demandez que ce paramètre soit ajouté au pixel. </p> <p>Le paramètre de synchronisation DSP est déterminé par l’utilisation d’un paramètre de chaîne de requête. </p> <p>SI la balise est déclenchée sur<span class="codeph"> (« https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;? »</span> </p> <p>ET que la balise contient le paramètre d’URL <span class="codeph"> « sid= »)</span> </p> <p>ALORS vérifiez si le paramètre d’URL <span class="codeph"> « cs=0 »</span> ou<span class="codeph"> « cs=1 »</span> existe et, si ce n’est pas le cas, veillez à ce que <span class="codeph">« cs=1 »</span> soit ajouté à ces pixels afin que les taux de correspondance de l’audience puissent s’améliorer. </p> </td> 
-   <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé très facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -100,24 +100,24 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Une fonction de rappel <span class="codeph">pageBottom</span> doit être définie en dernier dans le corps de la page lors du déploiement synchrone. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
-   <td colname="col3"> <p>Launch requiert la fonction <span class="codeph"> _satellite.pageBottom()</span> pour les déploiements synchrones. Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de Launch. </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
+   <td colname="col3"> <p>Platform Launch requires the <span class="codeph"> _satellite.pageBottom()</span> function for synchronous deployments. Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Prise en main de Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Déploiement asynchrone de Launch</a> </p> </td> 
-   <td colname="col2"> <p>La bibliothèque Launch est hébergée sur l’instance Akamai d’Adobe à l’adresse <span class="filepath">assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement de Launch, car elle permet un meilleur contrôle des performances du site web grâce au contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques Launch peuvent être hébergées et gérées via votre propre hébergement web ou CDN. </p> </td> 
-   <td colname="col3"> <p>Bien que l’hébergement de Launch par le biais du réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé de mettre en œuvre l’auto-hébergement comme première étape pour améliorer les performances des pages. </p> </td> 
+    --> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Prise en main de Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Déploiement asynchrone du lancement de plate-forme</a> </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement du lancement de plate-forme, car elle permet un meilleur contrôle des performances du site Web par le contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques de lancement de plate-forme peuvent être hébergées et gérées via votre propre hébergement Web ou CDN. </p> </td> 
+   <td colname="col3"> <p>Bien que l’hébergement du lancement de plate-forme via le réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé que l’auto-hébergement soit implémenté comme première étape de l’amélioration des performances des pages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Launch doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
-   <td colname="col3"> <p>Incluez le paramètre « async » dans le script intégré pour garantir un fonctionnement asynchrone correct de Launch. </p> </td> 
+   <td colname="col2"> <p>Le lancement de la plate-forme doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
+   <td colname="col3"> <p>Inclure le paramètre async dans le script intégré pour garantir la fonctionnalité asynchrone de lancement de plate-forme </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
