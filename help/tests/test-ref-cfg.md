@@ -1,23 +1,23 @@
 ---
-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor concernant la configuration.
-seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor concernant la configuration.
+description: Cette référence fournit des informations supplémentaires sur les tests que Adobe Experience Platform Auditor effectue pour la configuration.
+seo-description: Cette référence fournit des informations supplémentaires sur les tests que Adobe Experience Platform Auditor effectue pour la configuration.
 seo-title: Configuration
 title: Configuration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 89%
 
 ---
 
 
 # Configuration
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor concernant la configuration.
+Cette référence fournit des informations supplémentaires sur les tests que Adobe Experience Platform Auditor effectue pour la configuration.
 
-Les tests de configuration recherchent des paramètres, des valeurs ou des conflits potentiels spécifiques dans votre implémentation. Auditor évalue les balises en fonction d’autres règles et des bonnes pratiques recommandées.
+Les tests de configuration recherchent des paramètres, des valeurs ou des conflits potentiels spécifiques dans votre implémentation. Platform Auditor évalue les balises en fonction d’autres règles et des meilleures pratiques recommandées.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Launch : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
-   <td colname="col3"> <p> Mettez à jour la bibliothèque Launch en la recréant et en la publiant. </p> </td> 
+   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de code de lancement de plate-forme (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col3"> <p> Mettez à jour la bibliothèque Platform Launch en recréant et en publiant la bibliothèque Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
