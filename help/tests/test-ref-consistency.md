@@ -1,23 +1,23 @@
 ---
-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la cohérence des balises.
-seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la cohérence des balises.
+description: Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la cohérence des balises.
+seo-description: Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la cohérence des balises.
 seo-title: Cohérence des balises
 title: Cohérence des balises
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
 
 # Cohérence des balises
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la cohérence des balises.
+Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la cohérence des balises.
 
-Les tests de cohérence d’Auditor recherchent les incohérences entre toutes les pages numérisées. Il s’agit de valeurs ou de configurations qui doivent être identiques sur toutes les pages du site pour garantir une collecte de données précise.
+Les tests de cohérence de Platform Auditor recherchent des incohérences entre toutes les pages analysées. Il s’agit de valeurs ou de configurations qui doivent être identiques sur toutes les pages du site pour garantir une collecte de données précise.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
