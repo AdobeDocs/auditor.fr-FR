@@ -1,14 +1,14 @@
 ---
-description: informations sur les tests Adobe Auditor
-seo-description: informations sur les tests Adobe Auditor
+description: informations sur les tests Adobe Experience Platform Auditor
+seo-description: informations sur les tests Adobe Experience Platform Auditor
 seo-title: Schéma de test 1.0.1
 title: Schéma de test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '2684'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2727'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Alertes {#alerts}
 
-Cette référence fournit des informations supplémentaires sur les alertes affichées par Auditor pour les tests.
+Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
 
 Les alertes indiquent les problèmes que vous devez connaître, mais qui n’affectent pas votre score. Il s’agit de recommandations de bonnes pratiques qui, dans certains cas, peuvent ne pas s’appliquer à votre mise en œuvre.
 
@@ -38,7 +38,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : balise de conversion correcte implémentée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Vérifiez si c’est la balise de conversion appropriée qui est utilisée. </p> <p> <p>Avertissement : l’utilisation des balises de conversion obsolètes de TubeMogul peut entraîner une perte de données. </p> </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau vos pixels de conversion vers les nouvelles balises de conversion image seule Advertising Cloud. </p> <p>L'extension Advertising Cloud pour Adobe Experience Platform Launch permet d'y parvenir facilement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -46,7 +46,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : balise JS correcte utilisée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud doit utiliser les dernières balises JavaScript. </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau votre JavaScript Advertising Cloud vers la dernière version. L’utilisation de versions JavaScript obsolètes peut entraîner la perte de fonctionnalités. </p> <p>Pour ce faire, utilisez l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau votre JavaScript Advertising Cloud vers la dernière version. L’utilisation de versions JavaScript obsolètes peut entraîner la perte de fonctionnalités. </p> <p>Cela peut être accompli plus facilement grâce à l'utilisation de l'extension Advertising Cloud pour Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -59,7 +59,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Mettez à niveau vos pixels Advertising Cloud vers les nouvelles balises image seule Advertising Cloud, afin de complètement tirer parti de la fonctionnalité d’Advertising Cloud. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -67,7 +67,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
       1.0.1 
     --> <p><b>Advertising Cloud : pixels de segment, synchronisation DSP activée</b> </p> <p>Poids : 0 </p> </td> 
    <td colname="col2"> <p>Vérifiez si le pixel du segment TubeMogul contient un paramètre de synchronisation DSP, et demandez que ce paramètre soit ajouté au pixel. </p> <p>Le paramètre de synchronisation DSP est déterminé par l’utilisation d’un paramètre de chaîne de requête. </p> <p>SI la balise est déclenchée sur<span class="codeph"> (« https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt; »</span> </p> <p> OU <span class="codeph"> « http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;? »</span> </p> <p>ET que la balise contient le paramètre d’URL <span class="codeph"> « sid= »)</span> </p> <p>ALORS vérifiez si le paramètre d’URL <span class="codeph"> « cs=0 »</span> ou<span class="codeph"> « cs=1 »</span> existe et, si ce n’est pas le cas, veillez à ce que <span class="codeph">« cs=1 »</span> soit ajouté à ces pixels afin que les taux de correspondance de l’audience puissent s’améliorer. </p> </td> 
-   <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé très facilement avec l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p> Ajoutez le paramètre d’URL <span class="codeph"> « cs=1 »</span> à vos pixels Advertising Cloud afin que la synchronisation DSP puisse se produire, ce qui augmente les taux de correspondance d’audience. </p> <p>Cela peut être réalisé facilement avec l'extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -104,7 +104,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Une fonction de rappel <span class="codeph">pageBottom</span> doit être définie en dernier dans le corps de la page lors du déploiement synchrone. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <!--
       1.0.1 
     --> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>La bibliothèque Launch est hébergée sur l’instance Akamai d’Adobe à l’adresse <span class="filepath">assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement de Launch, car elle permet un meilleur contrôle des performances du site web grâce au contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques Launch peuvent être hébergées et gérées via votre propre hébergement web ou CDN. </p> </td> 
-   <td colname="col3"> <p>Bien que l’hébergement de Launch par le biais du réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé de mettre en œuvre l’auto-hébergement comme première étape pour améliorer les performances des pages. </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement du lancement de plate-forme, car elle permet un meilleur contrôle des performances du site Web par le contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques de lancement de plate-forme peuvent être hébergées et gérées via votre propre hébergement Web ou CDN. </p> </td> 
+   <td colname="col3"> <p>Bien que l’hébergement du lancement de plate-forme via le réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé que l’auto-hébergement soit implémenté comme première étape de l’amélioration des performances des pages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Launch doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
-   <td colname="col3"> <p>Incluez le paramètre « async » dans le script intégré pour garantir un fonctionnement asynchrone correct de Launch. </p> </td> 
+   <td colname="col2"> <p>Le lancement de la plate-forme doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
+   <td colname="col3"> <p>Inclure le paramètre async dans le script intégré pour garantir la fonctionnalité asynchrone de lancement de plate-forme </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -136,9 +136,9 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
 
 ## Configuration {#configuration}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor concernant la configuration.
+Cette référence fournit des informations supplémentaires sur les tests exécutés par Platform Auditor pour la configuration.
 
-Les tests de configuration recherchent des paramètres, des valeurs ou des conflits potentiels spécifiques dans votre implémentation. Auditor évalue les balises en fonction d’autres règles et des bonnes pratiques recommandées.
+Les tests de configuration recherchent des paramètres, des valeurs ou des conflits potentiels spécifiques dans votre implémentation. Platform Auditor évalue les balises en fonction d’autres règles et des meilleures pratiques recommandées.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -218,8 +218,8 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Launch : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
-   <td colname="col3"> <p> Mettez à jour la bibliothèque Launch en la recréant et en la publiant. </p> </td> 
+   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de code de lancement de plate-forme (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col3"> <p> Mettez à jour la bibliothèque Platform Launch en recréant et en publiant la bibliothèque Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -250,9 +250,9 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
 
 ## Cohérence des balises {#tag-consistency}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la cohérence des balises.
+Cette référence fournit plus d’informations sur les tests exécutés par Platform Auditor pour la cohérence des balises.
 
-Les tests de cohérence d’Auditor recherchent les incohérences entre toutes les pages numérisées. Il s’agit de valeurs ou de configurations qui doivent être identiques sur toutes les pages du site pour garantir une collecte de données précise.
+Les tests de cohérence de Platform Auditor recherchent des incohérences entre toutes les pages analysées. Il s’agit de valeurs ou de configurations qui doivent être identiques sur toutes les pages du site pour garantir une collecte de données précise.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -276,9 +276,9 @@ Les tests de cohérence d’Auditor recherchent les incohérences entre toutes l
 
 ## Présence des balises {#tag-presence}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Auditor pour assurer la présence des balises.
+Cette référence fournit plus d’informations sur les tests effectués par Platform Auditor pour la présence de balises.
 
-Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le code de votre page.
+Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le code de votre page.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -295,7 +295,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
       1.0.1 
     --> <p><b>Advertising Cloud : présence du code</b> </p> <p>Poids : 5 </p> </td> 
    <td colname="col2"> <p> La balise Advertising Cloud n’est pas disponible dans le modèle DOM. </p> </td> 
-   <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -303,7 +303,7 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
       1.0.1 
     --> <p><b>Advertising Cloud : pixel de segment implémenté</b> </p> <p>Poids : 5 </p> </td> 
    <td colname="col2"> <p> Mettez à niveau vos pixels de segment Advertising Cloud vers les nouvelles balises image seule Advertising Cloud. L’utilisation de balises de segment AMO obsolètes peut entraîner une perte de données. </p> </td> 
-   <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Launch Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -379,14 +379,14 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
       1.0.1 
     --> <p><b>Launch : bibliothèque chargée</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Launch n’est pas installé ou ne s’exécute pas. </p> </td> 
-   <td colname="col3"> <p>Vérifiez que la bibliothèque Launch est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
+   <td colname="col3"> <p>Vérifiez que la bibliothèque Platform Launch est implémentée sur la page et n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une bibliothèque Launch. </p> </td> 
+   <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une seule bibliothèque de lancement de plate-forme. </p> </td> 
    <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
   </tr> 
   <tr> 
@@ -394,16 +394,16 @@ Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le 
     <!--
       1.0.1 
     --> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Launch. </p> <p>Ce test échoue si l’appel <span class="codeph"> pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph"> &lt;head&gt; </span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
-   <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de Launch. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Le rappel <span class="codeph"> _satellite.pageBottom()</span> a été trouvé sur la page, ce qui ne doit pas être le cas lorsque Launch est déployé de manière asynchrone. </p> </td> 
-   <td colname="col3"> <p>Supprimez le script <span class="codeph">_satellite.pageBottom()</span> pour un fonctionnement correct de Launch. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
