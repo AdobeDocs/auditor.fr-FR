@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
 product: adobe experience platform auditor
-sub-product: auditeur de plate-forme adobe experience
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Aide pour Experience Platform Auditor
 user-guide-description: Générez un rapport qui évalue votre implémentation d’Adobe Experience Cloud et vous suggère des améliorations.
-breadcrumb-title: Guide de l’auditeur de plateformes
+breadcrumb-title: Guide de Platform Auditor
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 82%
    + Schémas de test précédents {#previous-rubrics}
       + [Schéma de test 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [Schéma de test 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [FAQ sur l’auditeur de plateformes](auditor-faq.md)
-+ [Notes de mise à jour de Platform Audit](release-notes.md)
++ [FAQ sur Platform Auditor](auditor-faq.md)
++ [Notes de mise à jour de Platform Auditor](release-notes.md)
