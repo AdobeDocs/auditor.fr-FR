@@ -4,11 +4,11 @@ seo-description: Les filtres d’inclusion limitent les liens qu’un audit peut
 seo-title: Filtres d’inclusion et d’exclusion
 title: Filtres d’inclusion et d’exclusion
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les filtres d’inclusion et d’exclusion fournissent des instructions pour les
 
 En appliquant des filtres d’inclusion, des filtres d’exclusion ou une combinaison des deux, vous pouvez donner des instructions quant aux liens qu’un audit peut analyser.
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+Tout élément du champ des [!UICONTROL filtres d’inclusion] limite l’analyse aux seules pages lui correspondant. Tout élément du champ des [!UICONTROL filtres d’exclusion] empêche l’analyse des pages lui correspondant.
 
 Les filtres d’inclusion et d’exclusion peuvent être des adresses URL complètes, des adresses URL partielles ou des expressions régulières qui correspondent à une page valide.
 
@@ -53,7 +53,7 @@ Les filtres d’inclusion et d’exclusion peuvent être des adresses URL compl�
 
 ## URL de début {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Adobe Experience Platform Auditor requiert une seule page pour l&#39;URL de démarrage. L’URL de début est toujours consultée avant toute autre URL. Tout lien découvert à partir de la page de début peut être consulté, sous réserve qu’il respecte les filtres d’inclusion et d’exclusion. Si un élément d’exclusion correspond à une URL de début, il est ignoré.
+Adobe Experience Platform Auditor ne requiert qu’une page pour l’URL de début. L’URL de début est toujours consultée avant toute autre URL. Tout lien découvert à partir de la page de début peut être consulté, sous réserve qu’il respecte les filtres d’inclusion et d’exclusion. Si un élément d’exclusion correspond à une URL de début, il est ignoré.
 
 ## Filtres d’inclusion {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Par défaut, un audit analyse tous les sous-domaines de l’URL de début. À mo
 
 Ainsi, tout lien figurant sur la page de l’URL de début peut être consulté. Il correspond à n’importe quelle page sur n’importe quel sous-domaine de l’URL de début.
 
-L’utilisation du filtre d’inclusion par défaut offre un large éventail d’analyse aux audits. Pour cibler certaines sections ou pages, indiquez des instructions d’audit spécifiques en ajoutant des filtres dans cette zone. Dans ce cas, remplacez la valeur par défaut par les répertoires que vous souhaitez analyser dans votre audit. Vous pouvez également utiliser l’option Inclure des filtres pour effectuer un contrôle inter-domaines dans lequel vous devez début l’audit sur un domaine et se terminer sur un autre. Pour ce faire, saisissez les domaines que vous souhaitez parcourir. Dans tous les cas, pour qu’une URL de filtre Inclure soit trouvée, elle doit être découverte sur une page vérifiée.
+L’utilisation du filtre d’inclusion par défaut offre un large éventail d’analyse aux audits. Pour cibler certaines sections ou pages, indiquez des instructions d’audit spécifiques en ajoutant des filtres dans cette zone. Dans ce cas, remplacez la valeur par défaut par les répertoires que vous souhaitez analyser dans votre audit. Vous pouvez également utiliser des filtres d’inclusion pour effectuer un audit interdomaines, auquel cas vous devez démarrer l’audit sur un domaine et le terminer sur un autre. Pour ce faire, saisissez les domaines que vous souhaitez parcourir. Dans tous les cas, pour que des adresses URL de filtre d’inclusion soient trouvées, elles doivent être découvertes sur une page analysée.
 
-Les filtres Inclure peuvent contenir des URL exactes, des URL partielles ou des expressions régulières. Par exemple, si l’URL de début est [!DNL http://mysite.com], les pages suivantes sont éligibles à l’analyse par défaut (notez les caractères en gras) :
+Les filtres d’inclusion peuvent contenir des adresses URL exactes, des adresses URL partielles ou des expressions régulières. Par exemple, si l’URL de début est [!DNL http://mysite.com], les pages suivantes sont éligibles à l’analyse par défaut (notez les caractères en gras) :
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ Les filtres d’exclusion empêchent l’analyse de certaines adresses URL. Vous
 
 ## Test des filtres et adresses URL {#section-3cfa125b1756411395a64701e128efa0}
 
-Vous pouvez tester vos filtres et URL dans Platform Auditor.
+Vous pouvez tester vos filtres et adresses URL dans Platform Auditor.
 
 Lorsque vous créez un audit, cliquez sur **[!UICONTROL Test Advanced Filters]**. Saisissez les filtres et adresses URL, puis cliquez sur **[!UICONTROL Apply]**.
 
