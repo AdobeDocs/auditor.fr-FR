@@ -1,21 +1,21 @@
 ---
-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
-seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
+description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
+seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
 seo-title: Référence sur les tests
 title: Référence sur les tests
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Référence sur les tests {#test-reference}
 
-Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
+Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor.
 
 **Version du schéma de test actuel :** 1.0.5
 
@@ -34,7 +34,7 @@ Il est **vivement recommandé** de corriger les résultats de niveau 4 ou 5.
 
 Il est **recommandé** de corriger les résultats de niveau 1 à 3.
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Quelles sont les technologies Adobe évaluées par Platform Auditor ? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
