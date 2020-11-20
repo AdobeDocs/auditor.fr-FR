@@ -1,23 +1,23 @@
 ---
-description: Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la présence de balises.
-seo-description: Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la présence de balises.
+description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour assurer la présence des balises.
+seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour assurer la présence des balises.
 seo-title: Présence des balises
 title: Présence des balises
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Présence des balises
 
-Cette référence fournit plus d’informations sur les tests que Adobe Experience Platform Auditor effectue pour la présence de balises.
+Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour assurer la présence des balises.
 
-Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le code de votre page.
+Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit dans le code de votre page.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud : présence du code</b> </p> <p>Poids : 5 </p> </td> 
    <td colname="col2"> <p> La balise Advertising Cloud n’est pas disponible dans le modèle DOM. </p> </td> 
-   <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Advertising Cloud pour Adobe Experience Platform Launch. </p> </td> 
+   <td colname="col3"> <p>Implémentez la balise Advertising Cloud à l’aide de l’extension Advertising Cloud pour Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud : pixel de segment implémenté</b> </p> <p>Poids : 5 </p> </td> 
    <td colname="col2"> <p> Mettez à niveau vos pixels de segment Advertising Cloud vers les nouvelles balises image seule Advertising Cloud. L’utilisation de balises de segment AMO obsolètes peut entraîner une perte de données. </p> </td> 
-   <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Advertising Cloud pour le lancement de plate-forme. </p> </td> 
+   <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Advertising Cloud pour Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
@@ -96,15 +96,15 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit
     <!--
       1.0.5 
     --> <p><b>Launch : bibliothèque chargée</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Le lancement de la plate-forme n'est pas installé ou ne s'exécute pas. </p> </td> 
-   <td colname="col3"> <p>Vérifiez que la bibliothèque Platform Launch est implémentée sur la page et n’est pas bloquée par les activités de script suivantes. </p> </td> 
+   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Platform Launch n’est pas installé ou ne s’exécute pas. </p> </td> 
+   <td colname="col3"> <p>Vérifiez que la bibliothèque Platform Launch est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une seule bibliothèque de lancement de plate-forme. </p> </td> 
+   <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une bibliothèque Platform Launch. </p> </td> 
    <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroit
     <!--
       1.0.5 
     --> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Platform Launch. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
+   <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>Le rappel <span class="codeph"> _satellite.pageBottom()</span> a été trouvé sur la page, ce qui ne doit pas être le cas lorsque Platform Launch est déployé de manière asynchrone. </p> </td> 
+   <td colname="col3"> <p>Supprimez le script <span class="codeph">_satellite.pageBottom()</span> pour un fonctionnement correct de Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
