@@ -4,9 +4,9 @@ seo-description: Questions fréquentes et réponses sur Adobe Experience Platfor
 seo-title: FAQ sur Adobe Experience Platform Auditor
 title: FAQ sur Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
