@@ -4,9 +4,9 @@ seo-description: La page Liste des audits affiche des informations sur tous vos 
 seo-title: Page Liste des audits
 title: Page Liste des audits
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
