@@ -1,15 +1,15 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: adobe experience platform auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Aide pour Experience Platform Auditor
 user-guide-description: Générez un rapport qui évalue votre implémentation d’Adobe Experience Cloud et vous suggère des améliorations.
 breadcrumb-title: Guide de Platform Auditor
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5f155d859486320aeec497946e35b7c06a3de7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
 ht-degree: 100%
 
