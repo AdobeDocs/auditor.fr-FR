@@ -58,12 +58,12 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM : déclenchement de la balise pageBottom</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM : déclenchement de la balise pageBottom</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La balise DTM <code> pageBottom</code> n’a pas été détectée. </p> <p>Cela peut se produire si le rappel se trouve dans une instruction <code> if</code> dont le résultat est similaire à <code> if (false) {_satellite.pageBottom()}</code>. Ainsi, bien qu’il puisse exister et être correctement placé, la balise peut quand même ne pas se déclencher. </p> </td> 
    <td colname="col3"> <p>Installez le rappel DTM <code> pageBottom</code> sur chaque page. </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : ne possède pas plusieurs scripts d’intégration</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Il ne doit pas y avoir plusieurs scripts d’intégration chargés sur la page. Les sites de production ne doivent charger qu’une bibliothèque Platform Launch. </p> </td> 
    <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
   </tr> 
@@ -111,7 +111,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Platform Launch. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de Platform Launch. </p> </td> 
   </tr> 
@@ -119,7 +119,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : le rappel pageBottom ne doit pas exister lors d’un déploiement asynchrone</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Le rappel <span class="codeph"> _satellite.pageBottom()</span> a été trouvé sur la page, ce qui ne doit pas être le cas lorsque Platform Launch est déployé de manière asynchrone. </p> </td> 
    <td colname="col3"> <p>Supprimez le script <span class="codeph">_satellite.pageBottom()</span> pour un fonctionnement correct de Platform Launch. </p> </td> 
   </tr> 
@@ -132,7 +132,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col3"> <p>Installez la dernière version de Target (at.js). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> Target : bibliothèque chargée dans la balise &lt;head&gt;</b> </p> <p>Poids : 4 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col1"> <p><b> Target : bibliothèque chargée dans la balise &lt;head&gt;</b> </p> <p>Poids : 4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La bibliothèque Target doit être chargée dans la balise <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
    <td colname="col3"> <p> Vérifiez que la bibliothèque Target est chargée dans la balise <span class="codeph">&lt;head&gt;</span>. </p> </td> 
   </tr> 
