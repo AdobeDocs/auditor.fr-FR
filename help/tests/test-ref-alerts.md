@@ -107,7 +107,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Prise en main d’Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Déploiement asynchrone de Platform Launch</a> </p> </td> 
+    --> <p><b>Launch : auto-hébergement</b> </p> <p>Poids : 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Prise en main d’Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Déploiement asynchrone de Platform Launch</a> </p> </td> 
    <td colname="col2"> <p>La bibliothèque Platform Launch est hébergée sur l’instance Akamai d’Adobe à l’adresse <span class="filepath">assets.adobedtm.com</span>. </p> <p>L’auto-hébergement est l’approche recommandée pour le chargement de Platform Launch, car elle permet un meilleur contrôle des performances du site web grâce au contrôle du cache, la réduction des dépendances des scripts tiers et un meilleur contrôle du processus de publication. Les bibliothèques Platform Launch peuvent être hébergées et gérées via votre propre hébergement web ou CDN. </p> </td> 
    <td colname="col3"> <p>Bien que l’hébergement de Platform Launch par le biais du réseau de diffusion de contenu Akamai fonctionne dans la plupart des cas, il est recommandé de mettre en œuvre l’auto-hébergement comme première étape pour améliorer les performances des pages. </p> </td> 
   </tr> 
@@ -115,7 +115,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Launch : doit être déployé de manière asynchrone</b> </p> <p>Poids : 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Platform Launch doit être déployé de manière asynchrone pour des performances optimales. </p> </td> 
    <td colname="col3"> <p>Incluez le paramètre « async » dans le script intégré pour garantir un fonctionnement asynchrone correct de Platform Launch. </p> </td> 
   </tr> 
