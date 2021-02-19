@@ -2,7 +2,7 @@
 description: Adobe Experience Platform Auditor est un service d’Adobe Experience Platform qui a été co-développé avec ObservePoint, l’expert en validation d’implémentations numériques.
 seo-description: Adobe Experience Platform Auditor est un service d’Adobe Experience Platform qui a été co-développé avec ObservePoint, l’expert en validation d’implémentations numériques.
 seo-title: Adobe Experience Platform Auditor
-title: Adobe Experience Platform Auditor
+title: Vérificateur Adobe Experience Platform
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
 translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
