@@ -145,12 +145,12 @@ Platform Auditor évalue les balises en fonction d’autres règles et des bonn
     <td colname="col3"> <p>Installez la dernière version de la bibliothèque Target. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target : mboxDefault précède mboxCreate </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Target : mboxDefault précède mboxCreate </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p>L’utilisation correcte de <span class="codeph"> mboxCreate</span> ressemble à ceci : </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
     <td colname="col3"> <p>Veillez à inclure une balise <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> avant d’appeler <span class="codeph"> mboxCreate()</span>. at.js ne le fera pas à votre place. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target : DOCTYPE valide</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Target : DOCTYPE valide</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Un DOCTYPE non valide a été détecté. Aucune mbox ne sera déclenchée dans ce scénario. </p> <p>Pour at.js, le DOCTYPE doit être en mode standard, sinon Target ne fonctionnera pas. </p> </td> 
     <td colname="col3"> <p>Mettez à jour le DOCTYPE sur la page. </p> </td> 
    </tr> 
@@ -175,7 +175,7 @@ Platform Auditor évalue si les balises sont cohérentes entre les URL.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics : version de code cohérente </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics : version de code cohérente </b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Plusieurs versions du code Analytics ont été trouvées. </p> </td> 
     <td colname="col3"> <p>Remplacez toutes les instances d’Analytics par la version actuelle. </p> </td> 
    </tr> 
@@ -210,7 +210,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
     <td colname="col3"> <p>Implémentez le pixel de segment Advertising Cloud à l’aide de l’extension Advertising Cloud pour Platform Launch. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
     <td colname="col3"> <p>Installez la dernière version d’Analytics. </p> </td> 
    </tr> 
@@ -218,7 +218,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
     <td colname="col1"> <p><b> DTM : bibliothèque chargée</b> </p> <p>Poids : 5 </p> <p>Informations supplémentaires : </p> <p> 
       <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
        <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> Résolution des problèmes de DTM</a> </li> 
-       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ajout de code d’en-tête et de pied de page</a> </li> 
+       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ajout de code d’en-tête et de pied de page</a> </li> 
       </ul> </p> </td> 
     <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Dynamic Tag Management n’est pas installé ou ne s’exécute pas. </p> </td> 
     <td colname="col3"> <p>Vérifiez que la bibliothèque DTM est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
@@ -229,17 +229,17 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
     <td colname="col3"> <p>Vérifiez que seule la bibliothèque de production est en cours de chargement sur la page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
     <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM : déclenchement de la balise pageBottom</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM : déclenchement de la balise pageBottom</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> La balise <span class="codeph"> pageBottom</span> de DTM n’a pas été détectée. </p> <p>Cela peut se produire si l’appel se trouve dans une instruction <span class="codeph">if</span> qui donne un résultat similaire à <span class="codeph">if (false) {_satellite.pageBottom()}</span>. Ainsi, bien qu’il puisse exister et être correctement placé, la balise peut quand même ne pas se déclencher. </p> </td> 
     <td colname="col3"> <p>Installez l’appel <span class="codeph">pageBottom</span> de DTM sur chaque page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    <td colname="col1"> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
     <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
     <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
    </tr> 
