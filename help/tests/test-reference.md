@@ -4,14 +4,14 @@ seo-description: Cette référence fournit des informations supplémentaires sur
 seo-title: Référence sur les tests
 title: Référence sur les tests
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: b368bf43-2007-4f98-a965-ed8fc07c0fdf
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
 ---
-
 
 # Référence sur les tests {#test-reference}
 
