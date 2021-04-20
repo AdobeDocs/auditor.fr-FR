@@ -4,14 +4,14 @@ seo-description: Après l’exécution d’un test, la fiche d’évaluation aff
 seo-title: Fiche d’évaluation
 title: Fiche d’évaluation
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
-
 
 # Fiche d’évaluation {#scorecard}
 
