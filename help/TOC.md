@@ -6,11 +6,9 @@ audience: end-user
 user-guide-title: Aide pour Experience Platform Auditor
 user-guide-description: Générez un rapport qui évalue votre implémentation d’Adobe Experience Cloud et vous suggère des améliorations.
 breadcrumb-title: Guide de Platform Auditor
-breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 100%
 
 # Aide pour Experience Platform Auditor {#using}
 
-+ [Aperçu](overview.md)
++ [Présentation](overview.md)
 + Prise en main {#get-started}
    + [Prise en main](get-started/getting-started.md)
    + [Page Liste des audits](get-started/audit-list.md)
@@ -27,7 +25,7 @@ ht-degree: 100%
    + [Filtres d’inclusion et d’exclusion](create-audit/filters.md)
 + Rapports {#reports}
    + [Fiche d’évaluation](reports/scorecard.md)
-   + [Téléchargement du rapport](reports/download-report.md)
+   + [Télécharger le rapport](reports/download-report.md)
 + Tests {#tests}
    + [Référence sur les tests](tests/test-reference.md)
    + [Présence des balises](tests/test-ref-presence.md)
@@ -35,7 +33,7 @@ ht-degree: 100%
    + [Configuration](tests/test-ref-cfg.md)
    + [Alertes](tests/test-ref-alerts.md)
    + Schémas de test précédents {#previous-rubrics}
-      + [Schéma de test 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
-      + [Schéma de test 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
+      + [Schéma de test 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
+      + [Schéma de test 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
 + [FAQ sur Platform Auditor](auditor-faq.md)
 + [Notes de mise à jour de Platform Auditor](release-notes.md)
