@@ -3,8 +3,8 @@ title: Présentation d’Adobe Experience Platform Auditor
 description: Ce document couvre Adobe Experience Platform Auditor et ses successeurs.
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
 source-git-commit: 3dfe542bb4c1046efdf33243dc1ce922a2629e61
-workflow-type: tm+mt
-source-wordcount: '101'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
