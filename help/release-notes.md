@@ -1,21 +1,20 @@
 ---
-description: Notes de mise à jour d’Adobe Experience Platform Auditor
-seo-description: Notes de mise à jour d’Adobe Experience Platform Auditor
-seo-title: Notes de mise à jour d’Adobe Experience Platform Auditor
+description: Notes de mise à jour d’Adobe Experience Platform Auditor
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Notes de mise à jour d’Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
 exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
-# Notes de mise à jour d’Adobe Experience Platform Auditor {#auditor-release-notes}
+# Notes de mise à jour d’Adobe Experience Platform Auditor{#auditor-release-notes}
 
-## 5 février 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 5 février 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **Amélioration**
 
@@ -61,7 +60,7 @@ S’assurer que le lien Administration s’affiche dans l’interface de command
 >
 >L’accès à Platform Auditor se fait selon des plages de déploiement. Tous les clients y auront accès d’ici fin avril 2018.
 
-Platform Auditor évalue les implémentations d’Adobe Experience Cloud et recommande des améliorations. Platform Auditor vous aide à tirer davantage parti de vos produits Adobe, individuellement et collectivement.
+Platform Auditor évalue les implémentations d’Adobe Experience Cloud et recommande des améliorations. Platform Auditor vous aide à tirer davantage parti de vos produits Adobe, individuellement et collectivement.
 
 Avec Platform Auditor, vous pouvez réaliser les actions suivantes :
 

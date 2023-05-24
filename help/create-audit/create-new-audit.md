@@ -1,14 +1,13 @@
 ---
 description: Créer un nouvel audit dans Adobe Experience Platform Auditor
-seo-description: Créer un nouvel audit dans Adobe Experience Platform Auditor
-seo-title: Créer un nouvel audit dans Adobe Experience Platform Auditor
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Créer un nouvel audit dans Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '517'
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -42,7 +41,7 @@ Si vous le souhaitez, utilisez le lien au bas de la page pour accéder à un com
 
    Vous pouvez indiquer plusieurs adresses en les séparant par une virgule. Par défaut, le demandeur est averti. Les adresses électroniques sont validées en temps réel. Si vous saisissez une adresse non valide, vous en êtes averti à l’écran.
 
-   Chaque adresse électronique est limitée à 250 caractères maximum, fin de domaine incluse (par exemple, .com).
+   Chaque adresse e-mail est limitée à 250 caractères maximum, fin de domaine incluse (par exemple, .com).
 
 1. Spécifiez les [!UICONTROL filtres d’inclusion].
 

@@ -1,14 +1,13 @@
 ---
 description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour assurer la présence des balises.
-seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour assurer la présence des balises.
-seo-title: Présence des balises
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-title: Tag presence
 title: Présence des balises
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '958'
+workflow-type: tm+mt
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
@@ -40,7 +39,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
+   <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version d’Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +48,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
       <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> Résolution des problèmes de DTM</a> </li> 
       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ajout de code d’en-tête et de pied de page</a> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Dynamic Tag Management n’est pas installé ou ne s’exécute pas. </p> </td> 
+   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Dynamic Tag Management n’est pas installé ou ne s’exécute pas. </p> </td> 
    <td colname="col3"> <p>Vérifiez que la bibliothèque DTM est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +58,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
+   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -71,15 +70,15 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (MCID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (ECID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installez la dernière version de MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
   </tr> 
@@ -87,7 +86,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La valeur MID est introuvable dans le cookie <span class="codeph"> AMCV_</span>. </p> </td> 
    <td colname="col3"> <p>Testez à nouveau pour vérifier la latence de l’API MCID. Si la condition persiste, contactez l’assistance clientèle Adobe. </p> </td> 
   </tr> 

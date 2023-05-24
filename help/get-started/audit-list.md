@@ -1,19 +1,18 @@
 ---
 description: La page Liste des audits affiche des informations sur tous vos audits.
-seo-description: La page Liste des audits affiche des informations sur tous vos audits.
-seo-title: Page Liste des audits
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: Page Liste des audits
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
 exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '230'
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
-# Page Liste des audits {#audit-list-page}
+# Page Liste des audits{#audit-list-page}
 
 La page Liste des audits affiche des informations sur tous vos audits.
 

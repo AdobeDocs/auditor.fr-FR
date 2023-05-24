@@ -1,19 +1,18 @@
 ---
 description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
-seo-description: Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
-seo-title: Alertes
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: Alertes
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
 exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '936'
+workflow-type: tm+mt
+source-wordcount: '920'
 ht-degree: 100%
 
 ---
 
-# Alertes {#alerts}
+# Alertes{#alerts}
 
 Cette référence fournit des informations supplémentaires sur les alertes affichées par Adobe Experience Platform Auditor pour les tests.
 
@@ -73,7 +72,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management requiert la fonction <span class="codeph">_satellite.pageBottom()</span>. Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management requiert la fonction <span class="codeph">_satellite.pageBottom()</span>. Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +87,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b> Service Experience Cloud ID : utiliser une seule AdobeOrg</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/id-request.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b> Service Experience Cloud ID : utiliser une seule AdobeOrg</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/id-request.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Dans une implémentation MCID normale, une seule AdobeOrg doit être utilisée. </p> </td> 
    <td colname="col3"> <p>Vérifiez que plusieurs identifiants AdobeOrg existent pour cette implémentation. </p> </td> 
   </tr> 

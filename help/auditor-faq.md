@@ -1,21 +1,20 @@
 ---
-description: Questions fréquentes et réponses sur Adobe Experience Platform Auditor
-seo-description: Questions fréquentes et réponses sur Adobe Experience Platform Auditor
-seo-title: FAQ sur Adobe Experience Platform Auditor
-title: FAQ sur Adobe Experience Platform Auditor
+description: Questions fréquentes et réponses sur Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
+seo-title: Adobe Experience Platform Auditor FAQ
+title: FAQ sur Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '990'
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
 
-# FAQ sur Adobe Experience Platform Auditor {#auditor-faq}
+# FAQ sur Adobe Experience Platform Auditor{#auditor-faq}
 
-Cet article contient les réponses aux questions fréquentes sur Adobe Experience Platform Auditor.
+Cet article contient les réponses aux questions fréquentes sur Adobe Experience Platform Auditor.
 
 * [Qu’est-ce qu’Adobe Experience Platform Auditor ?](auditor-faq.md#section-c4a9bc8d8eef41598c27e0951a2518e4)
 * [Mon entreprise peut-elle utiliser Platform Auditor ?](auditor-faq.md#section-f90094050d1e44929066a942833435cf)
@@ -29,49 +28,49 @@ Cet article contient les réponses aux questions fréquentes sur Adobe Experienc
 * [Puis-je approuver mes adresses IP pour permettre l’analyse de pages...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Platform Auditor utilise-t-il les mêmes plages d’adresses IP qu’ObservePoint ?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
-## Qu’est-ce qu’Adobe Experience Platform Auditor ? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
+## Qu’est-ce qu’Adobe Experience Platform Auditor ?  {#section-c4a9bc8d8eef41598c27e0951a2518e4}
 
 Platform Auditor est un service d’Adobe Experience Cloud qui a été co-développé avec ObservePoint, l’expert en validation d’implémentations numériques.
 
 Platform Auditor permet aux clients d’analyser jusqu’à 500 pages web à la fois et de recevoir un rapport. Ce dernier leur indique comment améliorer les implémentations d’Adobe Experience Cloud, afin de bénéficier pleinement de leur investissement dans Adobe.
 
-## Puis-je utiliser Platform Auditor ? {#section-f90094050d1e44929066a942833435cf}
+## Puis-je utiliser Platform Auditor ?  {#section-f90094050d1e44929066a942833435cf}
 
-Toutes les organisations clientes d’Adobe Experience Cloud bénéficient d’un accès gratuit à Platform Auditor (à compter du 1er mai 2018). Chaque utilisateur doit accepter les conditions d’utilisation d’Adobe/ObservePoint dans l’interface utilisateur d’Adobe Experience Cloud avant d’accéder à cette fonctionnalité. Pour revenir sur ces conditions, contactez votre gestionnaire de compte.
+Toutes les organisations clientes d’Adobe Experience Cloud bénéficient d’un accès gratuit à Platform Auditor (à compter du 1er mai 2018). Chaque utilisateur doit accepter les conditions d’utilisation d’Adobe/ObservePoint dans l’interface utilisateur d’Adobe Experience Cloud avant d’accéder à cette fonctionnalité. Pour revenir sur ces conditions, contactez votre gestionnaire de compte.
 
-## Comment puis-je accéder à Platform Auditor ? {#section-531ff85f94384831a89cbb4109549daf}
+## Comment puis-je accéder à Platform Auditor ?  {#section-531ff85f94384831a89cbb4109549daf}
 
 Une fois connecté à [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), vous pouvez accéder à Platform Auditor en cliquant sur **[!UICONTROL Activation]** dans la barre de navigation supérieure. Vous pouvez également accéder directement à [https://auditor.adobe.com](https://auditor.adobe.com).
 
-## Quelles sont les technologies Adobe évaluées par Platform Auditor ? {#section-52833b71c05448aaae508e6070a387f5}
+## Quelles sont les technologies Adobe évaluées par Platform Auditor ?  {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
 * Analytics
 * DTM
-* Service Experience Cloud ID (anciennement Service de Marketing Cloud ID)
+* Service Experience Cloud ID (anciennement Service de Marketing Cloud ID)
 * Target
 
 Les solutions Adobe suivantes ne sont actuellement pas incluses dans le schéma de test. La prise en charge de ces solutions est prévue pour les prochaines mises à jour.
 
 * Advertising Cloud Creative
-* Audience Manager
+* Audience Manager
 * Campaign
-* Adobe Experience Platform Launch
+* Adobe Experience Platform Launch
 
-## Combien d’audits puis-je réaliser ? {#section-caac1e50ce1249aeba76308f3ef03fa0}
+## Combien d’audits puis-je réaliser ?  {#section-caac1e50ce1249aeba76308f3ef03fa0}
 
 Il n’y a pas de limite au nombre d’audits que vous pouvez réaliser. Les utilisateurs sont limités à l’exécution d’un audit à la fois. Une erreur se produit si vous essayez de lancer un audit avec les mêmes paramètres que celui en cours d’exécution.
 
-## Qu’est-ce qui est analysé pendant l’audit ? {#section-6d068ed69ece4a1bb6d0c34454550c45}
+## Qu’est-ce qui est analysé pendant l’audit ?  {#section-6d068ed69ece4a1bb6d0c34454550c45}
 
 La technologie ObservePoint analyse actuellement les adresses URL trouvées dans les liens de document. Les liens trouvés dans les boutons, les widgets de pagination et d’autres éléments de page de ce type ne sont pas analysés.
 
-## Comment puis-je suggérer de nouveaux critères pour les tests de Platform Auditor ? {#section-926e6ef9225b4f0bb19c2927d634cd77}
+## Comment puis-je suggérer de nouveaux critères pour les tests de Platform Auditor ?  {#section-926e6ef9225b4f0bb19c2927d634cd77}
 
 Vous pouvez envoyer des suggestions de test via la communauté de Platform Auditor en cliquant sur **[!UICONTROL Share Feedback]** (Partager des commentaires) sur cette page : [https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)
 
-## Combien de temps dure un audit ? {#section-5086ae27ef1f4671a9d951348654633a}
+## Combien de temps dure un audit ?  {#section-5086ae27ef1f4671a9d951348654633a}
 
 Le temps nécessaire à la réalisation d’un audit dépend de nombreux facteurs, dont :
 
@@ -95,7 +94,7 @@ Le temps nécessaire à la réalisation d’un audit dépend de nombreux facteur
 >
 >Platform Auditor effectue une analyse à la fois. Les comptes ObservePoint complets peuvent réaliser plusieurs audits consécutifs.
 
-## Quelles sont les informations fournies dans un rapport ? {#section-752d6b82f6744a3182c4ce16ea6b5d3f}
+## Quelles sont les informations fournies dans un rapport ?  {#section-752d6b82f6744a3182c4ce16ea6b5d3f}
 
 Chaque analyse génère un rapport indiquant les adresses URL analysées, les problèmes détectés sur ces pages web et des recommandations pour corriger les problèmes détectés.
 
@@ -113,9 +112,9 @@ Les recommandations incluses dans ces catégories sont ensuite réparties en tro
 * Recommandé
 * À savoir
 
-## Quelle est l’utilité de ces informations ? {#section-9308c1ea882048b781087ae6d2eee9f0}
+## Quelle est l’utilité de ces informations ?  {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Toutes les recommandations fournies par Platform Auditor sont destinées à vous aider à résoudre un problème lié à votre implémentation des solutions Adobe Experience Cloud, telles que DTM ou Target. Pour faciliter cela, l’équipe de Patform Auditor s’est efforcée de fournir des instructions très précises sur ce qui doit être fait et où. Vous pouvez exporter une feuille de calcul contenant toutes les adresses URL analysées et tous les résultats de test, afin d’identifier facilement les zones problématiques. Voici un exemple de recommandation pour une implémentation de DTM :
+Toutes les recommandations fournies par Platform Auditor sont destinées à vous aider à résoudre un problème lié à votre implémentation des solutions Adobe Experience Cloud, telles que DTM ou Target. Pour faciliter cela, l’équipe de Patform Auditor s’est efforcée de fournir des instructions très précises sur ce qui doit être fait et où. Vous pouvez exporter une feuille de calcul contenant toutes les adresses URL analysées et tous les résultats de test, afin d’identifier facilement les zones problématiques. Voici un exemple de recommandation pour une implémentation de DTM :
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
@@ -125,15 +124,15 @@ Toutes les recommandations fournies par Platform Auditor sont destinées à vou
  </tbody> 
 </table>
 
-## Platform Auditor peut-il réaliser un audit sur des technologies autres que celles d’Adobe ? {#section-f6e73c56083b4815bbf901296038bcd4}
+## Platform Auditor peut-il réaliser un audit sur des technologies autres que celles d’Adobe ?  {#section-f6e73c56083b4815bbf901296038bcd4}
 
 Non. Cependant, l’offre complète d’ObservePoint permet aux clients de réaliser un audit de toutes les balises et technologies marketing, et ainsi de les contrôler. En tant que client Adobe, vous avez accès à un compte d’évaluation gratuit. Pour accéder à votre compte d’évaluation, rendez-vous sur la [page Platform Auditor d’ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Puis-je approuver mes adresses IP pour permettre l’analyse de pages protégées par une connexion ? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Puis-je approuver mes adresses IP pour permettre l’analyse de pages protégées par une connexion ?  {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Cette fonctionnalité n’est actuellement pas prise en charge sans l’offre complète d’ObservePoint.
 
-## Platform Auditor utilise-t-il les mêmes plages d’adresses IP qu’ObservePoint ? {#section-39512b156e194787981bdd572ff5b5a9}
+## Platform Auditor utilise-t-il les mêmes plages d’adresses IP qu’ObservePoint ?  {#section-39512b156e194787981bdd572ff5b5a9}
 
 L’analyse est effectuée par ObservePoint. Ce sont donc les mêmes adresses IP qui sont utilisées.
 

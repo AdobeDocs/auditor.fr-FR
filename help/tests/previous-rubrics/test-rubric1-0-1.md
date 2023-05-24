@@ -1,19 +1,18 @@
 ---
 description: informations sur les tests Adobe Experience Platform Auditor
-seo-description: informations sur les tests Adobe Experience Platform Auditor
-seo-title: Schéma de test 1.0.1
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 1.0.1
 title: Schéma de test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '2727'
+workflow-type: tm+mt
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
 
-# Schéma de test 1.0.1 {#test-rubric}
+# Schéma de test 1.0.1{#test-rubric}
 
 ## Schéma de test 1.0.1 {#topic-25ed23afdfaf4a12b149ff276965b043}
 
@@ -77,7 +76,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management requiert la fonction <span class="codeph">_satellite.pageBottom()</span>. Ajoutez le script intégré juste avant la balise de fermeture body afin d’assurer le bon fonctionnement de DTM. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management requiert la fonction <span class="codeph">_satellite.pageBottom()</span>. Ajoutez le script intégré juste avant la balise de fermeture body afin d’assurer le bon fonctionnement de DTM. </p> <p> <p>Remarque : Il est recommandé que la balise soit la <i>dernière</i> balise dans <span class="codeph"> &lt;body&gt;</span>. Si elle se trouve dans la balise <span class="codeph"> &lt;body&gt;</span>, elle a une chance de fonctionner ; mais comme ce n’est pas la bonne pratique, il se peut qu’elle ne fonctionne pas correctement, ou avec des résultats inattendus ou non souhaités. </p> </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +91,7 @@ Les alertes indiquent les problèmes que vous devez connaître, mais qui n’aff
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b> Service Experience Cloud ID : utiliser une seule AdobeOrg</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/id-request.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b> Service Experience Cloud ID : utiliser une seule AdobeOrg</b> </p> <p>Poids : 0 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/id-request.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p>Dans une implémentation MCID normale, une seule AdobeOrg doit être utilisée. </p> </td> 
    <td colname="col3"> <p>Vérifiez que plusieurs identifiants AdobeOrg existent pour cette implémentation. </p> </td> 
   </tr> 
@@ -178,7 +177,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : instancié dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le code Adobe Analytics n’est pas installé ou ne s’exécute pas. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Le code Adobe Analytics n’est pas installé ou ne s’exécute pas. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Vérifiez que la balise Analytics est implémentée sur la page et n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
@@ -186,7 +185,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : instancié une fois</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le code Adobe Analytics a été détecté plusieurs fois sur la page. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Le code Adobe Analytics a été détecté plusieurs fois sur la page. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Assurez-vous qu’il n’y a qu’une seule balise Analytics sur la page. </p> </td> 
   </tr> 
   <tr> 
@@ -194,7 +193,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : version la plus récente</b> </p> <p>Poids : 3 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Analytics. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Analytics. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -209,8 +208,8 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : dernière version</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes du service d’identification des visiteurs, <span class="codeph"> visitorAPI.js</span>. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+    --> <p><b>Service Experience Cloud ID : dernière version</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes du service d’identification des visiteurs, <span class="codeph"> visitorAPI.js</span>. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque du service d’identification des visiteurs. </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +217,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Launch : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Platform Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Platform Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p> Mettez à jour la bibliothèque Platform Launch en la recréant et en la publiant. </p> </td> 
   </tr> 
   <tr> 
@@ -226,7 +225,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Target : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/target.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Target. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Target. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque Target. </p> </td> 
   </tr> 
   <tr> 
@@ -310,7 +309,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
     <!--
       1.0.1 
     --> <p><b>Analytics : chargé dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
+   <td colname="col2"> <p> La balise Adobe Analytics n’a pas été détectée. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version d’Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -322,7 +321,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
       <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> Résolution des problèmes de DTM</a> </li> 
       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ajout de code d’en-tête et de pied de page</a> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Dynamic Tag Management n’est pas installé ou ne s’exécute pas. </p> </td> 
+   <td colname="col2"> <p> Un objet _satellite global est introuvable dans le modèle DOM. Dynamic Tag Management n’est pas installé ou ne s’exécute pas. </p> </td> 
    <td colname="col3"> <p>Vérifiez que la bibliothèque DTM est implémentée sur la page et qu’elle n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
@@ -338,7 +337,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
     <!--
       1.0.1 
     --> <p><b>DTM : le rappel pageBottom existe dans &lt;body&gt;</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
+   <td colname="col2"> <p> Le rappel <span class="codeph">_satellite.pageBottom()</span> est introuvable dans la balise <span class="codeph">&lt;body&gt;</span> de la page, qui est requise par Dynamic Tag Management. </p> <p>Ce test échoue si l’appel <span class="codeph">pageBottom</span> est introuvable sur la page ou s’il se trouve dans la balise <span class="codeph">&lt;head&gt;</span> (ou à un autre emplacement inattendu). Le test ne sera réussi que si <span class="codeph"> pageBottom</span> se trouve quelque part dans la balise <span class="codeph">&lt;body&gt;</span>. S’il ne figure pas du tout sur la page, il ne fonctionnera pas et les deux autres tests <span class="codeph"> pageBottom</span> échoueront également. </p> </td> 
    <td colname="col3"> <p>Ajoutez le script intégré juste avant la balise <span class="codeph">&lt;/body&gt;</span> de fermeture afin d’assurer le bon fonctionnement de DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -353,15 +352,15 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (MCID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du code</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col2"> <p>Le code du service Experience Cloud ID est introuvable. L’Experience Cloud ID (ECID) est vivement recommandé pour vous assurer de tirer le meilleur parti de vos solutions Experience Cloud et il est essentiel pour la gestion des identifiants dans les solutions Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installez la dernière version de MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-guides.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence du cookie</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-guides.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> Le cookie <span class="codeph">AMCV_</span> est introuvable. Vous devez instancier un objet visiteur à partir du code <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> S’il s’agit d’une implémentation de DTM, vérifiez que l’identifiant AdobeOrg est correctement saisi dans l’outil MCID. </p> </td> 
   </tr> 
@@ -369,7 +368,7 @@ Platform Auditor évalue si la balise existe et si elle se trouve au bon endroi
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+    --> <p><b>Service Experience Cloud ID : présence de la valeur MID</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
    <td colname="col2"> <p> La valeur MID est introuvable dans le cookie <span class="codeph"> AMCV_</span>. </p> </td> 
    <td colname="col3"> <p>Testez à nouveau pour vérifier la latence de l’API MCID. Si la condition persiste, contactez l’assistance clientèle Adobe. </p> </td> 
   </tr> 

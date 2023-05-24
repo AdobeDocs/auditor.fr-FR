@@ -1,19 +1,18 @@
 ---
 description: Après l’exécution d’un test, la fiche d’évaluation affiche des informations sur l’audit.
-seo-description: Après l’exécution d’un test, la fiche d’évaluation affiche des informations sur l’audit.
-seo-title: Fiche d’évaluation
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: Fiche d’évaluation
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '432'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
 
-# Fiche d’évaluation {#scorecard}
+# Fiche d’évaluation{#scorecard}
 
 Après l’exécution d’un test, la fiche d’évaluation affiche des informations sur l’audit.
 
@@ -41,7 +40,7 @@ Votre score dépend du poids de chaque test et de sa réussite ou son échec. Si
 
 * 0 : vous avertit au sujet de problèmes que vous devez connaître, mais qui n’affectent pas votre score.
 * 1 : optimisation recommandée. Aucune incidence sur la précision des données.
-* 2 : un échec signifie que vous n’aurez pas accès aux fonctionnalités et correctifs Adobe Experience Cloud les plus récents.
+* 2 : un échec signifie que vous n’aurez pas accès aux fonctionnalités et correctifs Adobe Experience Cloud les plus récents.
 * 3 : teste l’efficacité et la conformité de l’implémentation aux bonnes pratiques vivement recommandées.
 * 4 : un échec signifie que vous collectez peut-être des données non fiables.
 * 5 : un échec signifie que vous pouvez subir une perte de données.
@@ -58,7 +57,7 @@ Outre le score pour chaque catégorie, la fiche d’évaluation répertorie tous
 
 Cliquez sur les catégories dans la partie supérieure de l’écran pour afficher les problèmes rencontrés dans chaque catégorie.
 
-## Quelles pages faisaient partie du test ? {#section-fd38ffeb868648e89c34c5772fa65f46}
+## Quelles pages faisaient partie du test ?  {#section-fd38ffeb868648e89c34c5772fa65f46}
 
 Vous pouvez afficher la liste des adresses URL ayant réussi ou échoué pendant le test.
 

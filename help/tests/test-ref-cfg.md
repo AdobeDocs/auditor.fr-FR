@@ -1,14 +1,13 @@
 ---
 description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour la configuration.
-seo-description: Cette référence fournit des informations supplémentaires sur les tests effectués par Adobe Experience Platform Auditor pour la configuration.
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
 seo-title: Configuration
 title: Configuration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
 exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '846'
+workflow-type: tm+mt
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
@@ -57,7 +56,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : instancié dans DOM</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le code Adobe Analytics n’est pas installé ou ne s’exécute pas. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Le code Adobe Analytics n’est pas installé ou ne s’exécute pas. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Vérifiez que la balise Analytics est implémentée sur la page et n’est pas bloquée par les activités de script suivantes. </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +64,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : instancié une fois</b> </p> <p>Poids : 5 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/home.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Le code Adobe Analytics a été détecté plusieurs fois sur la page. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Le code Adobe Analytics a été détecté plusieurs fois sur la page. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Assurez-vous qu’il n’y a qu’une seule balise Analytics sur la page. </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +72,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Analytics : version la plus récente</b> </p> <p>Poids : 3 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Analytics. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Analytics. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. Renvoie 0 lorsqu’aucun code Analytics n’est trouvé sur une page web. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -88,8 +87,8 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Service Experience Cloud ID : dernière version</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes du service d’identification des visiteurs, <span class="codeph"> visitorAPI.js</span>. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+    --> <p><b>Service Experience Cloud ID : dernière version</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/macid.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes du service d’identification des visiteurs, <span class="codeph"> visitorAPI.js</span>. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque du service d’identification des visiteurs. </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +96,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Launch : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Platform Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col2"> <p>Ces pages n’exécutent pas la dernière version de la bibliothèque de codes Platform Launch (Turbine). Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p> Mettez à jour la bibliothèque Platform Launch en la recréant et en la publiant. </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +104,7 @@ Les tests de configuration recherchent des paramètres, des valeurs ou des confl
     <!--
       1.0.1 
     --> <p><b>Target : version la plus récente</b> </p> <p>Poids : 2 </p> <p><a href="https://docs.adobe.com/content/help/fr-FR/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Informations supplémentaires</a> </p> </td> 
-   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Target. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
+   <td colname="col2"> <p> Vos pages n’exécutent pas la dernière version de la bibliothèque de codes Target. Les bibliothèques de codes qui alimentent les technologies Experience Cloud sont constamment mises à jour et modifiées afin de tirer parti des améliorations de performances et de fournir les dernières fonctionnalités. </p> </td> 
    <td colname="col3"> <p>Installez la dernière version de la bibliothèque Target. </p> </td> 
   </tr> 
   <tr> 

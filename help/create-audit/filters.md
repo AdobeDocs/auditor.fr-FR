@@ -1,19 +1,18 @@
 ---
 description: Les filtres d’inclusion limitent les liens qu’un audit peut analyser à partir de l’URL de début. Les filtres d’exclusion empêchent un audit d’analyser des liens.
-seo-description: Les filtres d’inclusion limitent les liens qu’un audit peut analyser à partir de l’URL de début. Les filtres d’exclusion empêchent un audit d’analyser des liens.
-seo-title: Filtres d’inclusion et d’exclusion
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Filtres d’inclusion et d’exclusion
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '808'
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
 
-# Filtres d’inclusion et d’exclusion {#include-and-exclude-filters}
+# Filtres d’inclusion et d’exclusion{#include-and-exclude-filters}
 
 Les filtres d’inclusion limitent les liens qu’un audit peut analyser à partir de l’URL de début. Les filtres d’exclusion empêchent un audit d’analyser des liens.
 
